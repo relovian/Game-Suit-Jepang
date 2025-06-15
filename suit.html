@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUIT GAME</title>
+    <link rel="stylesheet" href="suit.css">
+</head>
+<body>
+   <div class="container">
+        <div class="box">
+            <div class="player">
+              <img class="img_player" src="gambar/GUNTING.png" alt=""> 
+            </div>
+                <div class="score">
+                    <div class="box_player">
+                        <h1>player</h1>
+                        <p class="score_player">0</p>
+                    </div>
+                    <div class="box_comp">
+                        <h1>computer</h1>
+                        <p class="score_comp">0</p>
+                    </div>        
+                </div>
+            <div class="comp">
+                <img class="img_comp" src="gambar/BATU.png" alt="">
+            </div>
+        </div>
+
+    
+            <input type="text" id="input" onkeyup="this.value = this.value.toUpperCase();" placeholder="Masukkan Pilihanmu..." required>
+               <br>
+            <button class="submit" type="submit">submit</button>
+
+
+   </div>
+</body>
+<script src="suit.js"></script>
+</html>
