@@ -1,0 +1,161 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 650px;
+    height: 280px;
+    padding: 30px;
+    margin-top: 20%;
+    background-color:antiquewhite;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 5px 5px black;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.player .img_player {
+    filter: drop-shadow(3px 3px 3px rgba(25,68,222,0.87));
+}
+
+.comp .img_comp{
+    filter: drop-shadow(3px 3px 3px rgba(25,68,222,0.87));
+}
+
+.score {
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.box_player {
+    color: white;
+    width: 90px;
+    height: 120px;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.box_comp {
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+    width: 90px;
+    height: 120px;
+}
+
+.box_player .score_player {
+    font-size: 25px;
+}
+
+.box_comp .score_comp {
+    font-size: 25px;
+}
+
+
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+#input, .submit{
+    margin-left: 35%;
+}
+
+#input {
+    width: 185px;
+}
+
+.submit {
+    margin-left: 46%;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.pilihanUser {
+    width: 220px;
+    height: 100px;
+    display: flex;
+    margin-left: 180px;
+    gap: 5px;
+}
+
+
+.imgPilihan {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    background-color: blue;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 476px){
+.container{
+    width: 325px;
+    height: 200px;
+    margin-top: 80%;
+    margin-left: 5px; 
+}
+
+.player .img_player {
+    width: 100px;
+    height: 100px;
+}
+
+.box_player {
+    width: 65px;
+    height: 75px;
+}
+
+.box_player h1 {
+    font-size: 15px;
+}
+
+.comp .img_comp {
+    width: 100px;
+    height: 100px;
+}
+
+.box_comp {
+    width: 65px;
+    height: 75px;
+}
+
+.box_comp h1 {
+    font-size: 15px;
+}
+
+.score {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.box_player .score_player {
+    font-size: 18px;
+}
+
+.box_comp .score_comp {
+    font-size: 18px;
+}
+
+#input, .submit{
+    margin-left: 22%;
+}
+
+.submit {
+    margin-left: 42%;
+}
+}
